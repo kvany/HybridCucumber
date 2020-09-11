@@ -1,0 +1,82 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Add job Vacancy",
+        "description": "",
+        "id": "orangehrm;add-job-vacancy",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17492877601,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User logging to the applicatin and click on login",
+            "match": {
+              "location": "Vacancysteps.user_logging_to_the_applicatin_and_click_on_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1480588699,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Select recruitment and select vacancies",
+            "match": {
+              "location": "Vacancysteps.select_recruitment_and_select_vacancies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2881627600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Select add and fill the entries and click on save",
+            "match": {
+              "location": "Vacancysteps.select_add_and_fill_the_entries_and_click_on_save()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1469347400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "add candidate details and save",
+            "match": {
+              "location": "Vacancysteps.add_candidate_details_and_save()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TC_01"
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM",
+    "description": "",
+    "id": "orangehrm",
+    "keyword": "Feature",
+    "uri": "C:/workspace/OHRMcucumber/src/test/resources/Features/Addvacancy.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@OrangeHRM"
+      }
+    ]
+  }
+]

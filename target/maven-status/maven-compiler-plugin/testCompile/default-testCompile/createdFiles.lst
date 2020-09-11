@@ -1,0 +1,5 @@
+com\pages\OHRM_Recruitmentvacancies.class
+com\pages\OHRM_Recruitmentaddcandidate.class
+com\Testrunner\Runner1.class
+com\StepDefinition\Vacancysteps.class
+com\StepDefinition\candidateStep.class
